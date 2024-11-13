@@ -1,25 +1,56 @@
-### Notebooks Overview
+# LLM Mistral Notebook
 
-1. **MISTRAL-CHATBOT.ipynb**
-   - **Purpose**: This notebook likely demonstrates how to use the Mistral model as a chatbot, focusing on dialogue management and response generation.
-   - **Contents**: It may contain steps to initialize the model, preprocess input text, and set up a loop or function for generating responses based on user prompts.
-   - **Usage**: Suitable for developers looking to implement a chatbot application powered by the Mistral model, allowing for interactive Q&A or conversational AI.
+This repository provides Jupyter notebooks to interact with Mistral Large Language Models (LLMs) for tasks including chatbot development, retrieval-augmented generation, and text generation. These notebooks are designed to help users leverage Mistral models in a range of applications, from conversational AI to content generation.
 
-2. **MISTRAL-RAG.ipynb**
-   - **Purpose**: This notebook likely focuses on Retrieval-Augmented Generation (RAG), a method where the model retrieves relevant information from a source (like a document or dataset) before generating responses.
-   - **Contents**: The notebook may include code for integrating a retrieval component, using similarity search (likely with embeddings), and combining retrieved data with generative responses.
-   - **Usage**: Ideal for applications that require precise, contextually relevant answers, such as customer support or FAQ systems, where the model responds based on specific information sources.
+## Repository Structure
 
-3. **MISTRAL-TEXTGEN.ipynb**
-   - **Purpose**: This notebook likely provides an interface for experimenting with text generation capabilities, focusing on creative or informational text outputs.
-   - **Contents**: Steps for setting up prompts, adjusting generation parameters (like temperature or max length), and generating text based on user inputs are expected here.
-   - **Usage**: Useful for tasks such as content creation, summarization, or any project needing high-quality, generative text outputs.
+- **[MISTRAL-CHATBOT.ipynb](https://github.com/simonpierreboucher/llm_mistral_notebook/blob/main/MISTRAL-CHATBOT.ipynb)**: A notebook for setting up a Mistral-powered chatbot, demonstrating dialogue handling and response generation.
+- **[MISTRAL-RAG.ipynb](https://github.com/simonpierreboucher/llm_mistral_notebook/blob/main/MISTRAL-RAG.ipynb)**: Focuses on Retrieval-Augmented Generation (RAG) with the Mistral model, enabling the retrieval of relevant information before generating responses.
+- **[MISTRAL-TEXTGEN.ipynb](https://github.com/simonpierreboucher/llm_mistral_notebook/blob/main/MISTRAL-TEXTGEN.ipynb)**: Demonstrates the text generation capabilities of Mistral models, ideal for creative and informative content generation.
 
-Each notebook provides a different approach to leveraging Mistral LLMs, making this repository versatile for various LLM-driven applications.
+## Getting Started
 
-### Navigation and Usage
+### Prerequisites
 
-To use these notebooks:
-1. Open the notebook in Jupyter by navigating to its location and running `jupyter notebook`.
-2. Follow the instructions and code cells within each notebook to set up and interact with the model in the respective use case (Chatbot, RAG, or Text Generation).
+To run these notebooks, you need:
+- **Python 3.8+**
+- **Jupyter Notebook**
+- Required dependencies as listed in `requirements.txt`
 
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/simonpierreboucher/llm_mistral_notebook.git
+   cd llm_mistral_notebook
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Running the Notebooks
+
+1. **Start Jupyter Notebook**: Navigate to the repository folder and launch Jupyter:
+   ```bash
+   jupyter notebook
+   ```
+2. **Select a Notebook**: Open any of the notebooks (Chatbot, RAG, or Text Generation) to explore its functionality.
+3. **Follow Instructions**: Each notebook includes setup steps and explanations to guide you through using the model.
+
+## Use Cases
+
+- **MISTRAL-CHATBOT**: For building chatbots and virtual assistants that engage users in dialogue.
+- **MISTRAL-RAG**: Suitable for applications needing accurate, source-based responses, such as customer support and information retrieval systems.
+- **MISTRAL-TEXTGEN**: Useful for content creation, story generation, or tasks requiring high-quality text generation.
+
+## Contributing
+
+We welcome contributions! Feel free to submit issues or pull requests to enhance functionality, add features, or fix bugs.
+
+## License
+
+This repository is licensed under the MIT License.
