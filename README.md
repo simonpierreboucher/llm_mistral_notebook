@@ -1,4 +1,9 @@
 # LLM Mistral Notebook
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
+[![GitHub Issues](https://img.shields.io/github/issues/simonpierreboucher/llm-generate-function)](https://github.com/simonpierreboucher/llm-generate-function/issues)
+[![GitHub Forks](https://img.shields.io/github/forks/simonpierreboucher/llm-generate-function)](https://github.com/simonpierreboucher/llm-generate-function/network)
+[![GitHub Stars](https://img.shields.io/github/stars/simonpierreboucher/llm-generate-function)](https://github.com/simonpierreboucher/llm-generate-function/stargazers)
 
 This repository provides Jupyter notebooks to interact with Mistral Large Language Models (LLMs) for tasks including chatbot development, retrieval-augmented generation, and text generation. These notebooks are designed to help users leverage Mistral models in a range of applications, from conversational AI to content generation.
 
